@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-#define TAM_BUFFER 50
+#define TAM_BUFFER 60
 char buffer_entrada[TAM_BUFFER];
 char buffer_saida[TAM_BUFFER];
 
