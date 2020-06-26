@@ -16,7 +16,7 @@ char soma_modulo_alfabeto(char c, char b) {
   if (c>='A' && c<='Z') {
     c0 = c-'A';
     b0 = b-'A';
-    a0 = 'A'+(c0-b0+('Z'-'A'+1))%('Z'-'A'+1);
+    a0 = 'A'+(c0-b0+('Z'-'A'+1))%('Z'-'A'+1);/*decifrador com base no algoritmo do wikipedia*/
     return a0;
   } else return c;
 }
